@@ -8,10 +8,10 @@ void CRenderer::Update()
     }
 }
 
-template<typename T, typename... Args>
-T* CRenderer::CreateRenderable(Args&&... args)
+template<typename T>
+T* CRenderer::CreateRenderable()
 {
-    auto obj = std::make_unique<T>(std::forward<Args>(args)...);
+    auto obj = std::make_unique<T>();
     T* ptr = obj.get();
     renderQueue.push_back(std::move(obj));
     return ptr;

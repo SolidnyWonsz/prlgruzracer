@@ -13,8 +13,8 @@ class CRenderer : public Singleton<CRenderer>
         void Start();
         void Update();
 
-        template<typename T, typename... Args>
-        T* CreateRenderable(Args&&... args);
+        template<typename T>
+        T* CreateRenderable();
 
     private:
         std::vector<std::unique_ptr<IRenderable>> renderQueue;
