@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/prlgruzracer.dir/src/player/player_controller.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

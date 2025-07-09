@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/prlgruzracer.dir/src/renderer/renderer.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

@@ -1,0 +1,70 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/dominik/Projects/prlgruzracer/build",
+	"dir-cur-src" : "/home/dominik/Projects/prlgruzracer",
+	"dir-top-bld" : "/home/dominik/Projects/prlgruzracer/build",
+	"dir-top-src" : "/home/dominik/Projects/prlgruzracer",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/home/dominik/Projects/prlgruzracer/src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/dominik/Projects/prlgruzracer/build/CMakeFiles/prlgruzracer.dir",
+	"sources" : 
+	{
+		"CMakeFiles/prlgruzracer.dir/src/car/car.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/car/car.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/car/car_controller.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/car/car_controller.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/car/car_renderer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/car/car_renderer.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/core/assets.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/core/assets.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/core/game.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/core/game.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/core/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/core/main.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/player/player_controller.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/player/player_controller.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/renderer/renderer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/renderer/renderer.cpp"
+		},
+		"CMakeFiles/prlgruzracer.dir/src/world/world.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/dominik/Projects/prlgruzracer/src/world/world.cpp"
+		}
+	}
+}

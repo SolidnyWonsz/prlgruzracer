@@ -1,0 +1,19 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/prlgruzracer.dir/src/car/car_controller.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/car/car_renderer.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/car/car.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/core/assets.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/core/main.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/core/game.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/player/player_controller.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/renderer/renderer.cpp.o: dyndep
+
+build CMakeFiles/prlgruzracer.dir/src/world/world.cpp.o: dyndep
+
