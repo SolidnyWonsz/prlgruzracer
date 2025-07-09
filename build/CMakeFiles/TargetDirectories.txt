@@ -1,3 +1,0 @@
-/home/dominik/Projects/prlgruzracer/build/CMakeFiles/prlgruzracer.dir
-/home/dominik/Projects/prlgruzracer/build/CMakeFiles/edit_cache.dir
-/home/dominik/Projects/prlgruzracer/build/CMakeFiles/rebuild_cache.dir
