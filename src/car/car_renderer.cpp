@@ -1,6 +1,7 @@
 #include <car/car_renderer.h>
 #include <renderer/renderer.h>
 #include <core/assets.h>
+#include <iostream>
 
 void CCarRenderer::SetModel(const std::string &model)
 {
@@ -15,5 +16,6 @@ void CCarRenderer::Update(const Vector3 &position, const Quaternion &rotation)
 
 void CCarRenderer::Draw()
 {
+    std::cout << "dupa" << std::endl;
     DrawModel(model, position, 1, WHITE);
 }

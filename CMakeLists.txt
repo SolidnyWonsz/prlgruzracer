@@ -25,4 +25,4 @@ set_property(TARGET prlgruzracer PROPERTY CXX_STANDARD 20)
 
 target_include_directories(prlgruzracer PRIVATE src)
 target_link_libraries(prlgruzracer PRIVATE raylib m)
-#target_link_options(prlgruzracer PRIVATE -fsanitize=address)
+target_link_options(prlgruzracer PRIVATE -fsanitize=address)

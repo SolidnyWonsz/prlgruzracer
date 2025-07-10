@@ -3,7 +3,7 @@
 #include <player/player_controller.h>
 #include <car/car.h>
 #include <memory>
-#include <vector>
+#include <unordered_map>
 #include <common/singleton.h>
 
 class CWorld : public Singleton<CWorld>
@@ -15,8 +15,8 @@ class CWorld : public Singleton<CWorld>
         void Update();
         void End();
 
-        std::unique_ptr<CPlayer> &AddPlayer();
+        CPlayer &AddPlayer(int id, bool isLocal);
 
     private:
-        std::vector<std::unique_ptr<CPlayer>> players;
+        std::unordered_map<int, CPlayer> players;
 };

@@ -8,9 +8,9 @@ void CWorld::Start()
 
 void CWorld::Update()
 {
-    for (auto &player : players)
+    for (auto & [playerID, player] : players)
     {
-        player->Update();
+        player.Update();
     }
 }
 
@@ -19,7 +19,8 @@ void CWorld::End()
     players.clear();
 }
 
-std::unique_ptr<CPlayer> &CWorld::AddPlayer()
+CPlayer &CWorld::AddPlayer(int id, bool isLocal)
 {
-    return players.emplace_back(new CPlayer());
+    auto [it, player] = players.emplace(id, CPlayer{id, isLocal});
+    return it->second;
 }

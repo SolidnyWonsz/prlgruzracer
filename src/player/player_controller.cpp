@@ -1,8 +1,10 @@
 #include <player/player_controller.h>
+#include <world/world.h>
 
-CPlayer::CPlayer() 
+CPlayer::CPlayer(int id, bool isLocal) 
 {
-    ID = 0;
+    ID = id;
+    this->isLocal = isLocal;
 }
 
 CPlayer::~CPlayer() {}

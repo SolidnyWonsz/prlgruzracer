@@ -10,6 +10,7 @@ class CCamera : public Singleton<CCamera>
     public:
         void Start();
         void BeginFrame();
+        void Update();
         void EndFrame();
 
         Vector3 GetPosition() const
@@ -22,7 +23,7 @@ class CCamera : public Singleton<CCamera>
             camera.position = position;
         }
 
-        const Camera3D &GetCamera() const
+        Camera3D &GetCamera()
         {
             return camera;
         }

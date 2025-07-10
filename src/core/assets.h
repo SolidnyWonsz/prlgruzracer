@@ -13,8 +13,14 @@ class CAssetManager : public Singleton<CAssetManager>
         void Update();
         void End();
         
+        // I seriously wonder if there's a better way to accomplish this
+
         Model &GetModel(const std::string &name);
+        Image &GetImage(const std::string &name);
+        Texture2D &GetTexture(const std::string &name);
 
     private:
         std::unordered_map<std::string, Model> models;
+        std::unordered_map<std::string, Image> images;
+        std::unordered_map<std::string, Texture2D> textures;
 };
