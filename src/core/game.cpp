@@ -8,11 +8,13 @@ void CGame::Start()
     SetTraceLogLevel(LOG_NONE);
     SetWindowState(FLAG_WINDOW_RESIZABLE | FLAG_MSAA_4X_HINT | FLAG_VSYNC_HINT);
     InitWindow(1280, 720, "PRL Gruz Racer");
+    SetTargetFPS(GetMonitorRefreshRate(GetCurrentMonitor()));
     MaximizeWindow();
     InitAudioDevice();
     SetExitKey(0);
 
     CWorld::GetInstance()->Start();
+    CPlayer *player = CWorld::GetInstance()->AddPlayer().get(); 
 }
 
 void CGame::Update()

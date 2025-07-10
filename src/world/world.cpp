@@ -1,15 +1,16 @@
 #include <world/world.h>
+#include <iostream>
 
 void CWorld::Start()
 {
-
+    
 }
 
 void CWorld::Update()
 {
-    for (const auto &player : players)
+    for (auto &player : players)
     {
-        player.get()->Update();
+        player->Update();
     }
 }
 

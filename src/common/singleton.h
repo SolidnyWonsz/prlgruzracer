@@ -9,7 +9,7 @@ class Singleton
 
         static T* GetInstance()
         {
-            static T* _instance;
-            return _instance;
+            static T _instance;
+            return &_instance;
         }
 };

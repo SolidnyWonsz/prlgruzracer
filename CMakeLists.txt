@@ -8,6 +8,7 @@ set(SOURCES
     src/car/car.cpp
 
     src/core/assets.cpp
+    src/core/camera.cpp
     src/core/main.cpp
     src/core/game.cpp
 
@@ -24,3 +25,4 @@ set_property(TARGET prlgruzracer PROPERTY CXX_STANDARD 20)
 
 target_include_directories(prlgruzracer PRIVATE src)
 target_link_libraries(prlgruzracer PRIVATE raylib m)
+#target_link_options(prlgruzracer PRIVATE -fsanitize=address)

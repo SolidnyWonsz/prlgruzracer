@@ -9,7 +9,6 @@ class CCar
         CCar();
         void Update();
 
-    private:
         CCarRenderer *renderer;
         CCarController controller;
 };

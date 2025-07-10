@@ -1,6 +1,7 @@
 #pragma once
 
 #include <player/player_controller.h>
+#include <car/car.h>
 #include <memory>
 #include <vector>
 #include <common/singleton.h>

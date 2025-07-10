@@ -14,7 +14,13 @@ class CRenderer : public Singleton<CRenderer>
         void Update();
 
         template<typename T>
-        T* CreateRenderable();
+        T* CreateRenderable()
+        {
+            auto obj = std::make_unique<T>();
+            T* ptr = obj.get();
+            renderQueue.push_back(std::move(obj));
+            return ptr;
+        }
 
     private:
         std::vector<std::unique_ptr<IRenderable>> renderQueue;

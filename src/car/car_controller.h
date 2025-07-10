@@ -50,6 +50,8 @@ class CCarController
             float finalDriveRatio = 3.5f;
         };
 
+        Vector3 velocity;
+
     private:
         float throttle;
         float brake;

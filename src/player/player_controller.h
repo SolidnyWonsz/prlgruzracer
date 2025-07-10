@@ -1,5 +1,7 @@
 #pragma once
 
+#include <car/car.h>
+
 class CPlayer
 {
     public:
@@ -8,5 +10,6 @@ class CPlayer
 
         void Update();
 
-        // CarController *m_controlledCar;
+        CCar controlledCar;
+        int ID;
 };
