@@ -7,6 +7,8 @@
 class CCarController
 {
     public:
+        CCarController() = default;
+        CCarController(Vector3 position, Quaternion rotation);
         void Update();
 
         Vector3 GetPosition() const;

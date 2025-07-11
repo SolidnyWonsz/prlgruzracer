@@ -16,6 +16,5 @@ void CCarRenderer::Update(const Vector3 &position, const Quaternion &rotation)
 
 void CCarRenderer::Draw()
 {
-    std::cout << "dupa" << std::endl;
     DrawModel(model, position, 1, WHITE);
 }

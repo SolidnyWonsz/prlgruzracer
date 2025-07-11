@@ -1,5 +1,11 @@
 #include <car/car_controller.h>
 
+CCarController::CCarController(Vector3 position, Quaternion rotation)
+{
+    this->position = position;
+    this->rotation = rotation;
+}
+
 void CCarController::Update()
 {
 
